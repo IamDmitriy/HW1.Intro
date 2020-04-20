@@ -1,5 +1,3 @@
-import kotlin.random.Random
-
 fun main() {
     val publishedAgo: Int = (0..100).random()
     println("Запись опубликована ${publishedAgoToTimeInWords(publishedAgo)} (${publishedAgo}c назад)")
